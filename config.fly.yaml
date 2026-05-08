@@ -1,0 +1,15 @@
+# Fly.io runtime configuration for CLIProxyAPI.
+# This file is intended for remote deployment where auth artifacts must survive restarts.
+
+host: "0.0.0.0"
+port: 8317
+
+remote-management:
+  allow-remote: true
+  secret-key: ""
+  disable-control-panel: false
+
+auth-dir: "/data/auth"
+
+debug: false
+usage-statistics-enabled: false
